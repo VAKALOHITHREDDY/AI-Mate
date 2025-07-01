@@ -29,7 +29,7 @@ class Settings(BaseSettings):
     ollama_base_url: str = Field(
         default="http://localhost:11434", env="OLLAMA_BASE_URL"
     )
-    ollama_model: str = Field(default="llama3:8b-instruct-q8_0", env="OLLAMA_MODEL")
+    ollama_model: str = Field(default="llama3:latest", env="OLLAMA_MODEL")
 
     # ChromaDB Settings
     chroma_db_path: str = Field(default="./embeddings", env="CHROMA_DB_PATH")

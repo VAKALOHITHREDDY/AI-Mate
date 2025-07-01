@@ -221,6 +221,7 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
+
 # If no specific service is selected, restart all
 if [ "$RESTART_OLLAMA" = false ] && [ "$RESTART_BACKEND" = false ] && [ "$RESTART_FRONTEND" = false ] && [ "$RESTART_ALL" = false ]; then
     RESTART_ALL=true

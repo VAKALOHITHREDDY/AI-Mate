@@ -222,7 +222,7 @@ flowchart TD
 ```bash
 brew install ollama
 ollama serve
-ollama pull llama3:8b-instruct-q8_0
+ollama pull llama3:latest
 ```
 
 ### 2. Backend Setup
